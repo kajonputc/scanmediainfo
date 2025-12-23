@@ -162,15 +162,6 @@ Rewrite CSV safely
 
 ---
 
-## 📌 Best Practices
-
-- 🔒 backup CSV ก่อน upgrade major version
-- ❌ อย่าแก้ CSV ระหว่าง scan
-- ✅ ใช้ filter / pivot เพื่อวิเคราะห์
-- ✅ run normalize extension ก่อน scan
-
----
-
 ## 🏷 Versioning Policy
 
 ```text
@@ -199,20 +190,9 @@ vMAJOR.MINOR.PATCH
 
 ---
 
-## 🔜 Future Ideas (Out of Scope)
-
-- cleanup_missing_media script
-- subtitle extract & normalize pipeline
-- audio transcode pipeline
-- checksum-based verification
-
----
-
 ## ✅ Summary
 
 `scan_media_info_v1.2.2.ps1` เป็นสคริปต์ระดับ production
 สำหรับจัดการ media library อย่างเป็นระบบ
 
-> **Fast / Safe / Maintainable**  
-> ออกแบบมาเพื่อไม่ต้องมี `final_final.ps1` อีกต่อไป 😄
 
